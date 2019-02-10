@@ -21,10 +21,10 @@ yelp.query(`businesses/${businessId}`)
         var fields = JSON.parse(response);
         const yelpPhone= fields.phone;
         const yelpCuisine = fields.alias;
-        //const yelpDist = fields.distance;
+        const yelpId = fields.id;
         console.log('phone number: '+yelpPhone+"\n");
         console.log('Type of cuisine: '+yelpCuisine);
-        //console.log('It is: '+yelpDist+' meters away!');
+        console.log('ID: '+yelpId+' ');
     })
     .catch(err => {
         // Failure
