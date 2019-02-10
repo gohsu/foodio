@@ -20,7 +20,7 @@ yelp.query(`businesses/${businessId}`)
         // Success
         var fields = JSON.parse(response);
         const yelpPhone= fields.phone;
-        const yelpCuisine = fields.alias;
+        const yelpCuisine = fields.categories[0].title;
         const yelpId = fields.id;
         console.log('phone number: '+yelpPhone+"\n");
         console.log('Type of cuisine: '+yelpCuisine);
