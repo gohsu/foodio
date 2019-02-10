@@ -1,10 +1,7 @@
-/*
-This class pulls restaurant ratings from Yelp and Google,
-returns a weighted average of both of these.
 
-Yelp search is done by business ID
- */
+import axios from 'axios';
 
+let businessId = 'drNjH8Z63cgp8FWXh2hahA';
 let yelpAPI = require('yelp-api');
 
 // Create a new yelpAPI object with your API key
@@ -12,7 +9,6 @@ let apiKey = 'JsK559hp0ZfSJrH0DXGJjsbMolHQ-CM0E60HMSV5SlmJ_sKgdXutZoL8aS0TA25Se-
 let yelp = new yelpAPI(apiKey);
 
 // Set any parameters, if applicable (see API documentation for allowed params)
-let businessId = 'drNjH8Z63cgp8FWXh2hahA';
 
 // Call the endpoint
 yelp.query(`businesses/${businessId}`)
@@ -28,3 +24,4 @@ yelp.query(`businesses/${businessId}`)
         // Failure
         console.log(err);
     });
+
