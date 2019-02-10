@@ -21,7 +21,7 @@ yelp.query(`businesses/${businessId}`)
         var fields = JSON.parse(response);
         const yelpPhone= fields.phone;
         const yelpCuisine = fields.alias;
-        //const yelpDist = fields.distance.toString();
+        //const yelpDist = fields.distance;
         console.log('phone number: '+yelpPhone+"\n");
         console.log('Type of cuisine: '+yelpCuisine);
         //console.log('It is: '+yelpDist+' meters away!');
