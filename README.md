@@ -9,6 +9,8 @@ This web app aggregates restaurant reviews and ratings from Yelp and Google Maps
 We used Yelp's API [Yelp Fusion](https://github.com/Yelp/yelp-fusion), accessing it
 with the help of [this Javascript interfact](https://github.com/NickShallee/yelp-api).
 
+Special thanks to Artem Kovyazin from The Noun Project for the [icon](https://thenounproject.com/icon/1108786/) used in our logo.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Future plans
