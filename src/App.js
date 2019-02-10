@@ -15,7 +15,8 @@ class App extends Component {
           <body className={"App-body"}>
 
           <h1>Input Restaurant Name</h1>
-          <input type = "userSearch" ></input>
+          <input type="text" name="id" input id="searchBar" className="form-control"
+    placeholder="Enter your search term...."/>
           <button>Search</button>
           <body2 className="App-body2">
           <h3></h3>

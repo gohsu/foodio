@@ -6,7 +6,9 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
-var x = document.getElementById('userSearch');
+var x = document.getElementById('searchBar').value;
+//searchbar is the id of the search bar thing
+console.log('after search');
 console.log(x);
 
 // If you want your app to work offline and load faster, you can change
