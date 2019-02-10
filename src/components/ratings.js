@@ -14,11 +14,10 @@ yelp.query(`businesses/${businessId}`)
         var fields = JSON.parse(response);
         const yelpRating = fields.rating;
         const yelpReviewCount = fields.review_count;
-        console.log(yelpRating+"\n");
-        console.log(yelpReviewCount);
     })
     .catch(err => {
         // Failure
         console.log(err);
     });
+
 

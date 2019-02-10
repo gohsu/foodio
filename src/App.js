@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './static/logo.svg';
+import {yelpRating, yelpReviewCount} from './components/ratings'
 
 import './App.css';
 
@@ -20,7 +21,7 @@ class App extends Component {
           <button>Search</button>
           <body2 className="App-body2">
           <h3></h3>
-          <h2> --------Reviews--------</h2>
+          <h2> --------Rating--------</h2>
           </body2>
           </body>
       </div>
