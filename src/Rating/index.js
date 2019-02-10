@@ -1,6 +1,3 @@
-
-import axios from 'axios';
-
 let businessId = 'drNjH8Z63cgp8FWXh2hahA';
 let yelpAPI = require('yelp-api');
 
