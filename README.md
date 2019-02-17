@@ -2,7 +2,7 @@
 
 ![logo](src/static/logo.png)
 
-This project was made for the McGill Women in Computer Science Hackathon 2019. 
+This project was made for the McGill Women in Computer Science Hackathon 2019 by Su and Lia. 
 This web app aggregates restaurant reviews and ratings from Yelp and Google Maps
 (in progress), presenting the user an overview of the restaurant's rating. 
 
